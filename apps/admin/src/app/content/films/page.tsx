@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Search, Filter, Edit, Trash2, Eye, MoreVertical } from 'lucide-react';
+import { Search, Filter, Edit, Trash2, Eye, MoreVertical, Upload } from 'lucide-react';
 
 const FILMS = [
   { id: 1, title: 'Black Python', creator: 'Pacific Media Solutions', status: 'Published', views: '342K', revenue: '$12,450', date: '2024-11-20' },
