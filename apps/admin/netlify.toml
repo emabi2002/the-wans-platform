@@ -3,8 +3,8 @@
 
 [build]
   base = "."
-  command = "cd ../.. && bun install && cd apps/admin && bun run build"
-  publish = ".next"
+  command = "bun install && cd apps/admin && bun run build"
+  publish = "apps/admin/.next"
 
 [build.environment]
   NODE_VERSION = "20"
