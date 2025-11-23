@@ -70,3 +70,5 @@ Thumbs.db
 
 # Prisma
 packages/database/prisma/migrations/
+apps/*/output/
+apps/*/out/
